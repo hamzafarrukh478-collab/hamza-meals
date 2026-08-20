@@ -2,54 +2,81 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Hamza Meals | Contact</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
+
+<!-- ================= NAVBAR ================= -->
+
 <header class="navbar">
 
-    <div class="logo">
+    <a href="index.html" class="logo">
         HAMZA <span>MEALS</span>
-    </div>
+    </a>
+
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="about.html">Our Story</a>
-        <a href="contact.html" class="active">Contact</a>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="menu.html">
+            Menu
+        </a>
+
+        <a href="about.html">
+            Our Story
+        </a>
+
+        <a href="contact.html" class="active">
+            Contact
+        </a>
+
     </nav>
 
-    <a href="#order" class="nav-button">
-        Order Now
+
+    <a href="#reservation" class="nav-button">
+        Reserve a Table
     </a>
 
 </header>
 
 
-<!-- CONTACT HERO -->
+
+<!-- ================= CONTACT HERO ================= -->
 
 <section class="contact-hero">
 
-    <div>
+    <div class="contact-hero-content">
 
         <p class="eyebrow">
             GET IN TOUCH
         </p>
 
         <h1>
-            Let's Make<br>
-            Something <span>Delicious.</span>
+            We'd love to
+            <span>hear from you.</span>
         </h1>
 
         <p>
-            Have a question, want to place an order,
-            or simply want to say hello?
+            Whether you're planning a visit, making a reservation
+            or simply have a question, we're here to help.
         </p>
 
     </div>
@@ -57,43 +84,53 @@
 </section>
 
 
-<!-- CONTACT INFORMATION -->
 
-<section class="contact-page">
+<!-- ================= CONTACT SECTION ================= -->
 
-    <div class="contact-intro">
+<main>
+
+
+<section class="contact-section" id="reservation">
+
+
+    <!-- CONTACT INFO -->
+
+    <div class="contact-info">
 
         <p class="eyebrow">
-            WE'D LOVE TO HEAR FROM YOU
+            COME SAY HELLO
         </p>
 
         <h2>
-            Come visit.<br>
-            Say hello.
+            Let's make it
+            <em>special.</em>
         </h2>
 
-        <p>
-            Whether you're planning a family dinner,
-            ordering your favorite meal or just have
-            a question, our team is here to help.
+        <p class="contact-intro">
+            Have a question or want to reserve a table?
+            Send us a message and our team will get back
+            to you as soon as possible.
         </p>
+
 
 
         <div class="contact-details">
 
+
             <div class="contact-detail">
 
-                <div class="detail-icon">
-                    📍
-                </div>
+                <span class="detail-number">
+                    01
+                </span>
 
                 <div>
 
-                    <h4>
-                        LOCATION
-                    </h4>
+                    <h3>
+                        Visit Us
+                    </h3>
 
                     <p>
+                        King Faisal Road<br>
                         Dammam, Saudi Arabia
                     </p>
 
@@ -102,17 +139,18 @@
             </div>
 
 
+
             <div class="contact-detail">
 
-                <div class="detail-icon">
-                    📞
-                </div>
+                <span class="detail-number">
+                    02
+                </span>
 
                 <div>
 
-                    <h4>
-                        PHONE
-                    </h4>
+                    <h3>
+                        Call Us
+                    </h3>
 
                     <p>
                         +966 50 000 0000
@@ -123,17 +161,18 @@
             </div>
 
 
+
             <div class="contact-detail">
 
-                <div class="detail-icon">
-                    ✉
-                </div>
+                <span class="detail-number">
+                    03
+                </span>
 
                 <div>
 
-                    <h4>
-                        EMAIL
-                    </h4>
+                    <h3>
+                        Email
+                    </h3>
 
                     <p>
                         hello@hamzameals.com
@@ -144,76 +183,94 @@
             </div>
 
 
+
             <div class="contact-detail">
 
-                <div class="detail-icon">
-                    ◷
-                </div>
+                <span class="detail-number">
+                    04
+                </span>
 
                 <div>
 
-                    <h4>
-                        OPENING HOURS
-                    </h4>
+                    <h3>
+                        Opening Hours
+                    </h3>
 
                     <p>
-                        Every Day · 11:00 AM – 12:00 AM
+                        Saturday – Thursday<br>
+                        11:00 AM – 12:00 AM
+                    </p>
+
+                    <p>
+                        Friday<br>
+                        1:00 PM – 12:00 AM
                     </p>
 
                 </div>
 
             </div>
 
+
         </div>
 
     </div>
 
 
-    <!-- ORDER FORM -->
 
-    <div class="order-card" id="order">
+    <!-- FORM -->
 
-        <div class="order-header">
+    <div class="reservation-form-wrapper">
+
+        <div class="form-heading">
 
             <p class="eyebrow">
-                QUICK ORDER
+                RESERVATION
             </p>
 
             <h2>
-                What can we<br>
-                prepare for you?
+                Book your
+                <em>table.</em>
             </h2>
 
         </div>
 
 
-        <form>
 
-            <div class="input-row">
+        <form class="reservation-form">
 
-                <div class="input-group">
 
-                    <label>
-                        YOUR NAME
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Full Name
                     </label>
 
                     <input
                         type="text"
-                        placeholder="Enter your name"
+                        id="name"
+                        name="name"
+                        placeholder="Your name"
+                        required
                     >
 
                 </div>
 
 
-                <div class="input-group">
 
-                    <label>
-                        PHONE
+                <div class="form-group">
+
+                    <label for="phone">
+                        Phone Number
                     </label>
 
                     <input
                         type="tel"
-                        placeholder="+966"
+                        id="phone"
+                        name="phone"
+                        placeholder="+966 5X XXX XXXX"
+                        required
                     >
 
                 </div>
@@ -221,101 +278,267 @@
             </div>
 
 
-            <div class="input-group">
 
-                <label>
-                    YOUR ORDER
-                </label>
+            <div class="form-row">
 
-                <textarea
-                    placeholder="Tell us what you'd like to order..."
-                ></textarea>
+                <div class="form-group">
+
+                    <label for="date">
+                        Date
+                    </label>
+
+                    <input
+                        type="date"
+                        id="date"
+                        name="date"
+                        required
+                    >
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="time">
+                        Preferred Time
+                    </label>
+
+                    <select
+                        id="time"
+                        name="time"
+                        required
+                    >
+
+                        <option value="">
+                            Select a time
+                        </option>
+
+                        <option>
+                            12:00 PM
+                        </option>
+
+                        <option>
+                            1:00 PM
+                        </option>
+
+                        <option>
+                            2:00 PM
+                        </option>
+
+                        <option>
+                            5:00 PM
+                        </option>
+
+                        <option>
+                            6:00 PM
+                        </option>
+
+                        <option>
+                            7:00 PM
+                        </option>
+
+                        <option>
+                            8:00 PM
+                        </option>
+
+                        <option>
+                            9:00 PM
+                        </option>
+
+                        <option>
+                            10:00 PM
+                        </option>
+
+                    </select>
+
+                </div>
 
             </div>
 
 
-            <div class="input-group">
 
-                <label>
-                    ADDITIONAL MESSAGE
+            <div class="form-group">
+
+                <label for="guests">
+                    Number of Guests
+                </label>
+
+                <select
+                    id="guests"
+                    name="guests"
+                    required
+                >
+
+                    <option value="">
+                        Select guests
+                    </option>
+
+                    <option>
+                        1 Guest
+                    </option>
+
+                    <option>
+                        2 Guests
+                    </option>
+
+                    <option>
+                        3 Guests
+                    </option>
+
+                    <option>
+                        4 Guests
+                    </option>
+
+                    <option>
+                        5 Guests
+                    </option>
+
+                    <option>
+                        6+ Guests
+                    </option>
+
+                </select>
+
+            </div>
+
+
+
+            <div class="form-group">
+
+                <label for="message">
+                    Special Request
                 </label>
 
                 <textarea
-                    class="small-textarea"
-                    placeholder="Any special requests?"
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Any special requests or notes?"
                 ></textarea>
 
             </div>
+
 
 
             <button
-                type="button"
-                class="gold-button order-button"
+                type="submit"
+                class="gold-button form-button"
             >
-                Send Order Request →
+                Request Reservation
             </button>
 
+
             <p class="form-note">
-                We'll get back to you as soon as possible.
+                We'll contact you to confirm your reservation.
             </p>
+
 
         </form>
 
     </div>
 
+
 </section>
 
 
-<!-- SOCIAL / FINAL CTA -->
 
-<section class="contact-cta">
+<!-- ================= MAP / LOCATION ================= -->
 
-    <p class="eyebrow">
-        STAY CONNECTED
-    </p>
+<section class="location-section">
 
-    <h2>
-        Follow the flavor.
-    </h2>
 
-    <p>
-        Follow us for new dishes, special offers
-        and what's happening at Hamza Meals.
-    </p>
+    <div class="location-content">
 
-    <div class="social-links">
+        <p class="eyebrow">
+            FIND US
+        </p>
 
-        <a href="#">
-            Instagram
-        </a>
+        <h2>
+            Come visit
+            <em>us.</em>
+        </h2>
 
-        <a href="#">
-            Facebook
+        <p>
+            Located in the heart of Dammam,
+            Hamza Meals is ready to welcome you.
+        </p>
+
+        <a href="#" class="dark-link">
+            Get Directions →
         </a>
 
     </div>
 
+
+
+    <div class="map-placeholder">
+
+        <div class="map-overlay">
+
+            <span>
+                HAMZA MEALS
+            </span>
+
+            <p>
+                Dammam, Saudi Arabia
+            </p>
+
+        </div>
+
+    </div>
+
+
 </section>
 
 
-<!-- FOOTER -->
+
+<!-- ================= CTA ================= -->
+
+<section class="cta">
+
+    <p class="eyebrow">
+        WE'LL SEE YOU SOON
+    </p>
+
+    <h2>
+        Good food is
+        <br>
+        better <em>together.</em>
+    </h2>
+
+    <a href="menu.html" class="gold-button">
+        Explore Our Menu
+    </a>
+
+</section>
+
+
+</main>
+
+
+
+<!-- ================= FOOTER ================= -->
 
 <footer>
 
     <div class="footer-main">
 
+
         <div>
 
-            <div class="logo">
+            <a href="index.html" class="logo">
                 HAMZA <span>MEALS</span>
-            </div>
+            </a>
 
             <p>
-                Fresh food. Great taste.<br>
+                Fresh food. Great taste.
+                <br>
                 Every day.
             </p>
 
         </div>
+
 
 
         <div class="footer-column">
@@ -343,6 +566,7 @@
         </div>
 
 
+
         <div class="footer-column">
 
             <h4>
@@ -363,7 +587,9 @@
 
         </div>
 
+
     </div>
+
 
 
     <div class="footer-bottom">

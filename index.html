@@ -5,27 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Hamza Meals | Exceptional Taste</title>
+    <title>Hamza Meals | Crafted With Flavor</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
 
-<!-- NAVIGATION -->
+
+<!-- ================= NAVBAR ================= -->
 
 <header class="navbar">
 
-    <div class="logo">
+    <a href="index.html" class="logo">
         HAMZA <span>MEALS</span>
-    </div>
+    </a>
+
 
     <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="about.html">Our Story</a>
-        <a href="contact.html">Contact</a>
+
+        <a href="index.html" class="active">
+            Home
+        </a>
+
+        <a href="menu.html">
+            Menu
+        </a>
+
+        <a href="about.html">
+            Our Story
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
     </nav>
+
 
     <a href="contact.html" class="nav-button">
         Order Now
@@ -34,11 +56,15 @@
 </header>
 
 
-<!-- HERO -->
+
+<!-- ================= HERO ================= -->
+
+<main>
 
 <section class="hero">
 
     <div class="hero-overlay"></div>
+
 
     <div class="hero-content">
 
@@ -46,15 +72,18 @@
             WELCOME TO HAMZA MEALS
         </p>
 
+
         <h1>
-            Crafted With<br>
-            <span>Passion.</span>
+            Crafted With
+            <span>Flavor.</span>
         </h1>
 
+
         <p class="hero-description">
-            Exceptional food, unforgettable flavors and
-            moments worth sharing.
+            Fresh ingredients, bold flavors and unforgettable
+            meals — carefully prepared to make every visit special.
         </p>
+
 
         <div class="hero-buttons">
 
@@ -62,23 +91,37 @@
                 Explore Our Menu
             </a>
 
-            <a href="about.html" class="text-button">
-                Discover Our Story →
+            <a href="#featured" class="text-button">
+                Discover More →
             </a>
 
         </div>
 
     </div>
 
-    <div class="scroll-indicator">
+
+    <div class="hero-scroll">
+
         <span></span>
+
         SCROLL TO EXPLORE
+
+    </div>
+
+
+    <div class="hero-decoration">
+
+        <div class="hero-ring ring-one"></div>
+
+        <div class="hero-ring ring-two"></div>
+
     </div>
 
 </section>
 
 
-<!-- INTRODUCTION -->
+
+<!-- ================= INTRO ================= -->
 
 <section class="intro">
 
@@ -88,32 +131,56 @@
             THE HAMZA MEALS EXPERIENCE
         </p>
 
+
         <h2>
-            Where great food<br>
-            becomes <em>great memories.</em>
+            Good food.
+            <br>
+            <em>Great moments.</em>
         </h2>
 
+
         <p>
-            We believe dining should be more than simply
-            satisfying your hunger. It's about bringing people
-            together, discovering new flavors and enjoying
-            every moment.
+            At Hamza Meals, we believe food should be more
+            than something you simply eat. It should be an
+            experience worth remembering.
         </p>
 
+
+        <p>
+            From carefully selected ingredients to the final
+            presentation, every detail is prepared with one
+            goal — giving you food you'll want to come back for.
+        </p>
+
+
         <a href="about.html" class="dark-link">
-            Learn More About Us →
+            Discover Our Story →
         </a>
 
     </div>
 
 
-    <div class="intro-stat">
+    <div class="intro-visual">
 
-        <div class="stat-circle">
+        <div class="intro-image">
 
-            <span>EST.</span>
+            <img
+                src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=85"
+                alt="Fresh restaurant dish"
+            >
 
-            <strong>2026</strong>
+        </div>
+
+
+        <div class="experience-badge">
+
+            <span>
+                EST.
+            </span>
+
+            <strong>
+                2026
+            </strong>
 
             <small>
                 FRESH • QUALITY • FLAVOR
@@ -126,21 +193,25 @@
 </section>
 
 
-<!-- FEATURED MENU -->
 
-<section class="featured">
+<!-- ================= FEATURED DISHES ================= -->
+
+<section class="featured" id="featured">
 
     <div class="section-heading">
 
         <div>
+
             <p class="eyebrow">
                 FROM OUR KITCHEN
             </p>
 
             <h2>
-                Signature Favorites
+                Guest Favorites
             </h2>
+
         </div>
+
 
         <a href="menu.html" class="dark-link">
             View Full Menu →
@@ -149,119 +220,174 @@
     </div>
 
 
+
     <div class="food-grid">
 
-        <div class="food-card">
 
-            <div class="food-image burger">
-                <span>🍔</span>
+        <!-- FOOD 1 -->
+
+        <article class="food-card">
+
+            <div class="food-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85"
+                    alt="Classic burger"
+                >
+
+                <span class="food-tag">
+                    BESTSELLER
+                </span>
+
             </div>
+
 
             <div class="food-info">
 
                 <div>
+
                     <h3>
                         Signature Burger
                     </h3>
 
                     <p>
-                        Premium beef, fresh vegetables
-                        and our signature sauce.
+                        Juicy beef, aged cheddar,
+                        fresh lettuce & signature sauce.
                     </p>
+
                 </div>
 
+
                 <strong>
-                    SAR 25
+                    SAR 29
                 </strong>
 
             </div>
 
-        </div>
+        </article>
 
 
-        <div class="food-card">
 
-            <div class="food-image chicken">
-                <span>🍗</span>
+        <!-- FOOD 2 -->
+
+        <article class="food-card">
+
+            <div class="food-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85"
+                    alt="Grilled chicken"
+                >
+
+                <span class="food-tag">
+                    CHEF'S PICK
+                </span>
+
             </div>
+
 
             <div class="food-info">
 
                 <div>
+
                     <h3>
-                        Crispy Chicken
+                        Herb Grilled Chicken
                     </h3>
 
                     <p>
-                        Golden crispy chicken with
-                        our house-made dip.
+                        Tender grilled chicken,
+                        herbs, vegetables & house sauce.
                     </p>
+
                 </div>
 
+
                 <strong>
-                    SAR 28
+                    SAR 34
                 </strong>
 
             </div>
 
-        </div>
+        </article>
 
 
-        <div class="food-card">
 
-            <div class="food-image pizza">
-                <span>🍕</span>
+        <!-- FOOD 3 -->
+
+        <article class="food-card">
+
+            <div class="food-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=900&q=85"
+                    alt="Fresh pizza"
+                >
+
+                <span class="food-tag">
+                    FAVORITE
+                </span>
+
             </div>
+
 
             <div class="food-info">
 
                 <div>
+
                     <h3>
-                        Signature Pizza
+                        House Special Pizza
                     </h3>
 
                     <p>
-                        Fresh dough, rich sauce and
-                        premium melted cheese.
+                        Hand-stretched dough,
+                        premium cheese & fresh toppings.
                     </p>
+
                 </div>
 
+
                 <strong>
-                    SAR 32
+                    SAR 39
                 </strong>
 
             </div>
 
-        </div>
+        </article>
+
 
     </div>
 
 </section>
 
 
-<!-- EXPERIENCE BANNER -->
+
+<!-- ================= EXPERIENCE ================= -->
 
 <section class="experience">
 
     <div class="experience-content">
 
         <p class="eyebrow">
-            MADE FOR MOMENTS
+            MADE WITH PASSION
         </p>
+
 
         <h2>
-            Come hungry.<br>
-            Leave <span>happy.</span>
+            From our kitchen
+            <br>
+            to your <span>table.</span>
         </h2>
 
+
         <p>
-            Whether it's lunch with friends, dinner with
-            family or simply treating yourself — there's
-            always a place for you at Hamza Meals.
+            We combine quality ingredients, thoughtful
+            preparation and a passion for flavor to create
+            dishes that feel familiar yet unforgettable.
         </p>
 
-        <a href="contact.html" class="gold-button">
-            Visit & Contact Us
+
+        <a href="menu.html" class="gold-button">
+            Explore Our Menu
         </a>
 
     </div>
@@ -269,9 +395,11 @@
 </section>
 
 
-<!-- FEATURES -->
+
+<!-- ================= FEATURES ================= -->
 
 <section class="features">
+
 
     <div class="feature">
 
@@ -284,47 +412,31 @@
         </h3>
 
         <p>
-            Quality ingredients selected
-            for every dish.
+            Carefully selected ingredients
+            prepared fresh every day.
         </p>
 
     </div>
+
 
 
     <div class="feature">
 
         <div class="feature-icon">
-            ♨
+            ♢
         </div>
 
         <h3>
-            Made Fresh
+            Crafted With Care
         </h3>
 
         <p>
-            Every order is prepared
-            with care.
+            Every dish is prepared with
+            attention to the smallest detail.
         </p>
 
     </div>
 
-
-    <div class="feature">
-
-        <div class="feature-icon">
-            ♥
-        </div>
-
-        <h3>
-            Made With Love
-        </h3>
-
-        <p>
-            Passion goes into every
-            meal we serve.
-        </p>
-
-    </div>
 
 
     <div class="feature">
@@ -334,56 +446,173 @@
         </div>
 
         <h3>
-            Great Experience
+            Loved By Guests
         </h3>
 
         <p>
-            Food and service you'll
-            remember.
+            Delicious food and memorable
+            experiences keep guests coming back.
         </p>
+
+    </div>
+
+
+
+    <div class="feature">
+
+        <div class="feature-icon">
+            ◇
+        </div>
+
+        <h3>
+            Made For Moments
+        </h3>
+
+        <p>
+            Perfect for family dinners,
+            friends and celebrations.
+        </p>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section class="reviews">
+
+    <div class="section-heading centered">
+
+        <p class="eyebrow">
+            WHAT OUR GUESTS SAY
+        </p>
+
+        <h2>
+            Loved at the table.
+        </h2>
+
+    </div>
+
+
+    <div class="review-grid">
+
+
+        <div class="review-card">
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p>
+                “Amazing food, beautiful presentation
+                and such a welcoming atmosphere.
+                Definitely coming back.”
+            </p>
+
+            <strong>
+                — Ahmed R.
+            </strong>
+
+        </div>
+
+
+
+        <div class="review-card">
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p>
+                “The flavors were incredible.
+                Everything tasted fresh and
+                perfectly prepared.”
+            </p>
+
+            <strong>
+                — Sara M.
+            </strong>
+
+        </div>
+
+
+
+        <div class="review-card">
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p>
+                “One of those places where you
+                finish your meal already planning
+                your next visit.”
+            </p>
+
+            <strong>
+                — Omar K.
+            </strong>
+
+        </div>
+
 
     </div>
 
 </section>
 
 
-<!-- CTA -->
+
+<!-- ================= FINAL CTA ================= -->
 
 <section class="cta">
 
     <p class="eyebrow">
-        READY TO TASTE THE DIFFERENCE?
+        YOUR TABLE IS WAITING
     </p>
 
+
     <h2>
-        Your table is waiting.
+        Make your next meal
+        <br>
+        <em>worth remembering.</em>
     </h2>
 
+
     <a href="contact.html" class="gold-button">
-        Get In Touch
+        Order Your Meal
     </a>
 
 </section>
 
 
-<!-- FOOTER -->
+</main>
+
+
+
+<!-- ================= FOOTER ================= -->
 
 <footer>
 
     <div class="footer-main">
 
+
         <div>
 
-            <div class="logo">
+            <a href="index.html" class="logo">
                 HAMZA <span>MEALS</span>
-            </div>
+            </a>
 
             <p>
-                Fresh food. Great taste.<br>
+                Fresh food. Great taste.
+                <br>
                 Every day.
             </p>
 
         </div>
+
 
 
         <div class="footer-column">
@@ -411,6 +640,7 @@
         </div>
 
 
+
         <div class="footer-column">
 
             <h4>
@@ -431,6 +661,7 @@
 
         </div>
 
+
     </div>
 
 
@@ -447,6 +678,7 @@
     </div>
 
 </footer>
+
 
 
 </body>

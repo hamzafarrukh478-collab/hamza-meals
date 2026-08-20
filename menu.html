@@ -2,28 +2,54 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Hamza Meals | Menu</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
+
+<!-- ================= NAVBAR ================= -->
+
 <header class="navbar">
 
-    <div class="logo">
+    <a href="index.html" class="logo">
         HAMZA <span>MEALS</span>
-    </div>
+    </a>
+
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html" class="active">Menu</a>
-        <a href="about.html">Our Story</a>
-        <a href="contact.html">Contact</a>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="menu.html" class="active">
+            Menu
+        </a>
+
+        <a href="about.html">
+            Our Story
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
     </nav>
+
 
     <a href="contact.html" class="nav-button">
         Order Now
@@ -32,23 +58,25 @@
 </header>
 
 
-<!-- PAGE HERO -->
+
+<!-- ================= MENU HERO ================= -->
 
 <section class="menu-hero">
 
-    <div>
+    <div class="menu-hero-content">
 
         <p class="eyebrow">
-            HAMZA MEALS
+            OUR MENU
         </p>
 
         <h1>
-            Our Menu
+            Made to be
+            <span>remembered.</span>
         </h1>
 
         <p>
-            Carefully crafted dishes made to
-            satisfy every craving.
+            Fresh ingredients. Bold flavors.
+            Carefully crafted dishes.
         </p>
 
     </div>
@@ -56,18 +84,20 @@
 </section>
 
 
-<!-- MENU -->
 
-<section class="menu-page">
+<!-- ================= MENU ================= -->
 
-    <!-- BURGERS -->
+<main class="menu-page">
 
-    <div class="menu-category">
+
+    <!-- ================= BURGERS ================= -->
+
+    <section class="menu-category">
 
         <div class="category-heading">
 
             <p class="eyebrow">
-                SIGNATURE
+                01 / SIGNATURE
             </p>
 
             <h2>
@@ -75,7 +105,7 @@
             </h2>
 
             <p>
-                Juicy, flavorful and made to order.
+                Hand-crafted burgers made with premium ingredients.
             </p>
 
         </div>
@@ -83,128 +113,47 @@
 
         <div class="premium-menu-grid">
 
-            <div class="premium-menu-item">
 
-                <div class="menu-item-icon">
-                    🍔
-                </div>
+            <article class="premium-menu-item">
 
-                <div class="menu-item-content">
-
-                    <div class="menu-item-title">
-
-                        <h3>
-                            Classic Beef Burger
-                        </h3>
-
-                        <span>
-                            SAR 25
-                        </span>
-
-                    </div>
-
-                    <p>
-                        Premium beef patty, fresh lettuce,
-                        tomato and our signature sauce.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="premium-menu-item">
-
-                <div class="menu-item-icon">
-                    🧀
-                </div>
+                <img
+                    class="menu-item-image"
+                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=85"
+                    alt="Signature Beef Burger"
+                >
 
                 <div class="menu-item-content">
 
                     <div class="menu-item-title">
 
                         <h3>
-                            Double Cheese Burger
+                            Signature Beef
                         </h3>
 
                         <span>
-                            SAR 32
+                            SAR 29
                         </span>
 
                     </div>
 
                     <p>
-                        Two juicy beef patties, melted cheddar
-                        and house sauce.
+                        Premium beef patty, aged cheddar,
+                        lettuce, tomato and our signature sauce.
                     </p>
 
                 </div>
 
-            </div>
+            </article>
 
 
-            <div class="premium-menu-item">
 
-                <div class="menu-item-icon">
-                    🌶️
-                </div>
+            <article class="premium-menu-item">
 
-                <div class="menu-item-content">
-
-                    <div class="menu-item-title">
-
-                        <h3>
-                            Spicy Chicken Burger
-                        </h3>
-
-                        <span>
-                            SAR 27
-                        </span>
-
-                    </div>
-
-                    <p>
-                        Crispy chicken, fresh vegetables and
-                        our signature spicy sauce.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- CHICKEN -->
-
-    <div class="menu-category">
-
-        <div class="category-heading">
-
-            <p class="eyebrow">
-                FROM THE KITCHEN
-            </p>
-
-            <h2>
-                Chicken
-            </h2>
-
-            <p>
-                Crispy, tender and full of flavor.
-            </p>
-
-        </div>
-
-
-        <div class="premium-menu-grid">
-
-            <div class="premium-menu-item">
-
-                <div class="menu-item-icon">
-                    🍗
-                </div>
+                <img
+                    class="menu-item-image"
+                    src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=500&q=85"
+                    alt="Crispy Chicken Burger"
+                >
 
                 <div class="menu-item-content">
 
@@ -215,71 +164,109 @@
                         </h3>
 
                         <span>
-                            SAR 28
+                            SAR 27
                         </span>
 
                     </div>
 
                     <p>
-                        Golden crispy chicken served
-                        with our signature dip.
+                        Crispy chicken, fresh lettuce,
+                        cheddar and creamy house dressing.
                     </p>
 
                 </div>
 
-            </div>
+            </article>
 
 
-            <div class="premium-menu-item">
 
-                <div class="menu-item-icon">
-                    🍗
-                </div>
+            <article class="premium-menu-item">
+
+                <img
+                    class="menu-item-image"
+                    src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=500&q=85"
+                    alt="Double Cheese Burger"
+                >
 
                 <div class="menu-item-content">
 
                     <div class="menu-item-title">
 
                         <h3>
-                            Chicken Strips
+                            Double Cheese
                         </h3>
 
                         <span>
-                            SAR 24
+                            SAR 35
                         </span>
 
                     </div>
 
                     <p>
-                        Tender chicken strips served
-                        with a delicious house dip.
+                        Two juicy beef patties, double cheddar,
+                        caramelized onions and house sauce.
                     </p>
 
                 </div>
 
-            </div>
+            </article>
+
+
+
+            <article class="premium-menu-item">
+
+                <img
+                    class="menu-item-image"
+                    src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?auto=format&fit=crop&w=500&q=85"
+                    alt="Classic Burger"
+                >
+
+                <div class="menu-item-content">
+
+                    <div class="menu-item-title">
+
+                        <h3>
+                            Classic House
+                        </h3>
+
+                        <span>
+                            SAR 25
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Classic beef patty, lettuce,
+                        tomato, onions and special sauce.
+                    </p>
+
+                </div>
+
+            </article>
+
 
         </div>
 
-    </div>
+    </section>
 
 
-    <!-- PIZZA -->
 
-    <div class="menu-category">
+    <!-- ================= MAINS ================= -->
+
+    <section class="menu-category">
 
         <div class="category-heading">
 
             <p class="eyebrow">
-                OVEN FRESH
+                02 / FROM THE KITCHEN
             </p>
 
             <h2>
-                Pizza
+                Main Courses
             </h2>
 
             <p>
-                Fresh dough, rich sauce and melted cheese.
+                Comforting classics prepared with our own touch.
             </p>
 
         </div>
@@ -287,18 +274,54 @@
 
         <div class="premium-menu-grid">
 
-            <div class="premium-menu-item">
 
-                <div class="menu-item-icon">
-                    🍕
-                </div>
+            <article class="premium-menu-item">
+
+                <img
+                    class="menu-item-image"
+                    src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=500&q=85"
+                    alt="Grilled Chicken"
+                >
 
                 <div class="menu-item-content">
 
                     <div class="menu-item-title">
 
                         <h3>
-                            Chicken Pizza
+                            Herb Grilled Chicken
+                        </h3>
+
+                        <span>
+                            SAR 34
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Tender grilled chicken with herbs,
+                        roasted vegetables and house sauce.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="premium-menu-item">
+
+                <img
+                    class="menu-item-image"
+                    src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=500&q=85"
+                    alt="Creamy Pasta"
+                >
+
+                <div class="menu-item-content">
+
+                    <div class="menu-item-title">
+
+                        <h3>
+                            Creamy Chicken Pasta
                         </h3>
 
                         <span>
@@ -308,92 +331,325 @@
                     </div>
 
                     <p>
-                        Tender chicken, mozzarella,
-                        fresh herbs and signature sauce.
+                        Creamy parmesan sauce, grilled chicken,
+                        herbs and freshly cooked pasta.
                     </p>
 
                 </div>
 
-            </div>
+            </article>
 
 
-            <div class="premium-menu-item">
 
-                <div class="menu-item-icon">
-                    🍕
-                </div>
+            <article class="premium-menu-item">
+
+                <img
+                    class="menu-item-image"
+                    src="https://images.unsplash.com/photo-1547592180-84f9e0e6f2a7?auto=format&fit=crop&w=500&q=85"
+                    alt="Rice Bowl"
+                >
 
                 <div class="menu-item-content">
 
                     <div class="menu-item-title">
 
                         <h3>
-                            Classic Margherita
+                            Signature Rice Bowl
                         </h3>
 
                         <span>
-                            SAR 28
+                            SAR 30
                         </span>
 
                     </div>
 
                     <p>
-                        Tomato sauce, mozzarella and
-                        fresh herbs on our classic dough.
+                        Seasoned rice, grilled protein,
+                        fresh vegetables and signature sauce.
                     </p>
 
                 </div>
 
-            </div>
+            </article>
+
+
+
+            <article class="premium-menu-item">
+
+                <img
+                    class="menu-item-image"
+                    src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=500&q=85"
+                    alt="Restaurant Main Course"
+                >
+
+                <div class="menu-item-content">
+
+                    <div class="menu-item-title">
+
+                        <h3>
+                            Chef's Special
+                        </h3>
+
+                        <span>
+                            SAR 39
+                        </span>
+
+                    </div>
+
+                    <p>
+                        A chef-selected combination of
+                        seasonal ingredients and bold flavors.
+                    </p>
+
+                </div>
+
+            </article>
+
 
         </div>
 
-    </div>
+    </section>
 
 
-    <!-- CALL TO ACTION -->
 
-    <div class="menu-cta">
+    <!-- ================= PIZZA ================= -->
 
-        <p class="eyebrow">
-            FOUND YOUR FAVORITE?
-        </p>
+    <section class="menu-category">
 
-        <h2>
-            Let's make it yours.
-        </h2>
+        <div class="category-heading">
 
-        <p>
-            Ready to order? Get in touch with us today.
-        </p>
+            <p class="eyebrow">
+                03 / HOUSE FAVORITES
+            </p>
 
-        <a href="contact.html" class="gold-button">
-            Order Now
-        </a>
+            <h2>
+                Pizza
+            </h2>
 
-    </div>
+            <p>
+                Hand-stretched dough and generous toppings.
+            </p>
+
+        </div>
+
+
+        <div class="premium-menu-grid">
+
+
+            <article class="premium-menu-item">
+
+                <img
+                    class="menu-item-image"
+                    src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=500&q=85"
+                    alt="Margherita Pizza"
+                >
+
+                <div class="menu-item-content">
+
+                    <div class="menu-item-title">
+
+                        <h3>
+                            Margherita
+                        </h3>
+
+                        <span>
+                            SAR 29
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Tomato sauce, fresh mozzarella,
+                        basil and olive oil.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="premium-menu-item">
+
+                <img
+                    class="menu-item-image"
+                    src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=500&q=85"
+                    alt="Pepperoni Pizza"
+                >
+
+                <div class="menu-item-content">
+
+                    <div class="menu-item-title">
+
+                        <h3>
+                            Classic Pepperoni
+                        </h3>
+
+                        <span>
+                            SAR 34
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Mozzarella, tomato sauce and
+                        premium pepperoni.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= DESSERTS ================= -->
+
+    <section class="menu-category">
+
+        <div class="category-heading">
+
+            <p class="eyebrow">
+                04 / SOMETHING SWEET
+            </p>
+
+            <h2>
+                Desserts
+            </h2>
+
+            <p>
+                Finish your meal with something special.
+            </p>
+
+        </div>
+
+
+        <div class="premium-menu-grid">
+
+
+            <article class="premium-menu-item">
+
+                <img
+                    class="menu-item-image"
+                    src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=500&q=85"
+                    alt="Chocolate Cake"
+                >
+
+                <div class="menu-item-content">
+
+                    <div class="menu-item-title">
+
+                        <h3>
+                            Chocolate Cake
+                        </h3>
+
+                        <span>
+                            SAR 18
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Rich chocolate cake with
+                        smooth chocolate cream.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="premium-menu-item">
+
+                <img
+                    class="menu-item-image"
+                    src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=500&q=85"
+                    alt="Dessert"
+                >
+
+                <div class="menu-item-content">
+
+                    <div class="menu-item-title">
+
+                        <h3>
+                            House Dessert
+                        </h3>
+
+                        <span>
+                            SAR 16
+                        </span>
+
+                    </div>
+
+                    <p>
+                        A sweet house creation made
+                        fresh for the perfect finish.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+
+<!-- ================= CTA ================= -->
+
+<section class="menu-cta">
+
+    <p class="eyebrow">
+        READY TO EAT?
+    </p>
+
+    <h2>
+        Your table is waiting.
+    </h2>
+
+    <p>
+        Order your favorite meal today.
+    </p>
+
+    <a href="contact.html" class="gold-button">
+        Order Now
+    </a>
 
 </section>
 
 
-<!-- FOOTER -->
+
+<!-- ================= FOOTER ================= -->
 
 <footer>
 
     <div class="footer-main">
 
+
         <div>
 
-            <div class="logo">
+            <a href="index.html" class="logo">
                 HAMZA <span>MEALS</span>
-            </div>
+            </a>
 
             <p>
-                Fresh food. Great taste.<br>
+                Fresh food. Great taste.
+                <br>
                 Every day.
             </p>
 
         </div>
+
 
 
         <div class="footer-column">
@@ -421,6 +677,7 @@
         </div>
 
 
+
         <div class="footer-column">
 
             <h4>
@@ -440,6 +697,7 @@
             </p>
 
         </div>
+
 
     </div>
 
